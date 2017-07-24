@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikhil/Code/MandelbrotSet/main.cpp
+stdio.h
+-
+stdlib.h
+-
+GLUT/glut.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+
